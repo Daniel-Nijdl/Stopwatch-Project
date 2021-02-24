@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name='author' content=`Daniel Nijdl'>
+  <meta name='description' content=''>
+  <meta name='Viewport' content='width=device-width, initial-scale=1.0'>
+  <meta property='og:image' content='' type='image/x-icon'>
+  <meta property='og:description' content='My'>
+  <meta property='og:title' content=''>
+  <title>Stopwatch Thing</title>
+  <link rel='stylesheet' href='css/style.css'>
+  <link rel='shortcut icon' href='' type='image/x-icon'>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=RocknRoll+One&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+
+  <div class="stopwatch">
+    <div class="buttons">
+      <button class="button startStop">Start/Stop</button>
+      <button class="button lap">Lap</button>
+    </div>
+
+    <div class="time">
+      <div class="normal">
+
+        <span class="watchStop">
+          <div id="minute" class="watch">0</div><p id="punct">:</p>
+          <div id="second" class="watch">00</div><p id="punct">:</p>
+          <div id="millsecond" class="watch">00</div>
+        </span>
+
+      </div>
+      <div class="laps">
+        <div class="lap1"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
